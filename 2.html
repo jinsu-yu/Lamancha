@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <title>Man of Lamancha</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin: 0;
+      }
+    a {
+      color:black;
+      text-decoration:  none;
+    }
+    .saw {
+      color:gray;
+    }
+    #active{
+      color:red;
+    }
+    h1{
+      font-size: 40px;
+      text-align: center;
+      border-bottom: 2px solid gray;
+      margin:0;
+      padding: 20px;
+    }
+    #grid ol{
+      border-right: 2px solid gray;
+      width:150px;
+      margin:0;
+      padding: 20px;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns: 200px 1fr;
+
+    }
+    #article{
+      padding-left: 25px;
+    }
+
+    @media(max-width:800px){
+      #grid{
+        display:block;
+      }
+        ol{
+          border-right: none;
+      }
+        h1{
+          border-bottom: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    <a href="index.html">
+      뮤지컬 맨오브라만차</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">기본정보</a></li>
+      <li><a href="2.html">출연진</a></li>
+      <li><a href="3.html">상영극장</a></li>
+      <li><a href="4.html">리뷰/관람후기</a></li>
+    </ol>
+
+
+    <img src="출연진.jpg", width="50%">
+
+  <div>
+    <h2>출연진</h2>
+    <p>
+      류정한(세르반테스/돈키호테)<br>
+      조승우(세르반테스/돈키호테)<br>
+      윤공주(알돈자)<br>
+      김지현(알돈자)<br>
+      최수진(알돈자)<br>
+      이훈진(산초)<br>
+      정원영(산초)<br>
+      서영주(도지사/여관주인)<br>
+      김대종(도지사/여관주인)<br>
+      박인배(까라스코)<br>
+      조성지(신부)<br>
+      김호(이발사)<br>
+      정단영(안토니아)<br>
+      김현숙(가정부)<br>
+    </p>
+  </div>
+</div>
+</body>
+</html>
